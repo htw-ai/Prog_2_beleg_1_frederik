@@ -33,10 +33,10 @@ class VektorCliAdapter {
      */
     public void Eingabe() {
             try {
-                System.out.println("select one of the following methods:");
+                System.out.println("Methoden:");
                 System.out.println(methodsToString());
 
-                String method = readLine("Enter what function you want to apply");
+                String method = readLine("Geben sie die Methode ein die Sie anwenden möchten");
 
                 Vektor vektor;
                 Vektor vektor1;
@@ -57,19 +57,19 @@ class VektorCliAdapter {
                         break;
                     case SUMME:
                         vektor = convert(readLine("Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen"));
-                        vektor1 = convert(readLine("Enter a second vector in Haskell List notation: x:xs , max 6  dimensionen"));
+                        vektor1 = convert(readLine("Geben sie einen  zweiten Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen"));
                         vektor.validate(6, 1, vektor1);
                         this.returnValue = (vektor.summe(vektor1).toString());
                         break;
                     case DIFFERENZ:
                         vektor = convert(readLine("Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen"));
-                        vektor1 = convert(readLine("Enter a second vector in Haskell List notation: x:xs , max 6  dimensionen"));
+                        vektor1 = convert(readLine("Geben sie einen  zweiten Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen"));
                         vektor.validate(6, 1, vektor1);
                         this.returnValue = (vektor.differenz(vektor1).toString());
                         break;
                     case SKALARPRODUKT:
                         vektor = convert(readLine("Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen"));
-                        vektor1 = convert(readLine("Enter a second vector in Haskell List notation: x:xs , max 6  dimensionen"));
+                        vektor1 = convert(readLine("Geben sie einen  zweiten Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen"));
                         vektor.validate(6, 1, vektor1);
                         this.returnValue = (String.valueOf(vektor.skalarprodukt(vektor1)));
                         break;
@@ -81,8 +81,8 @@ class VektorCliAdapter {
                         break;
                     case SPATPRODUKT:
                         vektor = convert(readLine("Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen"));
-                        vektor1 = convert(readLine("Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen"));
-                        vektor2 = convert(readLine("Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen"));
+                        vektor1 = convert(readLine("Geben sie einen zweiten Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen"));
+                        vektor2 = convert(readLine("Geben sie einen dritten Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen"));
                         Vektor[] aVektor = { vektor1, vektor2 };
                         vektor.validate(6, 1, vektor1);
                         vektor.validate(6, 1, vektor2);

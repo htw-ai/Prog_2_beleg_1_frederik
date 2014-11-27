@@ -18,9 +18,9 @@ Testbeispiele:
 
 1)
 ```zsh
-Enter what function you want to apply
+Geben sie die Methode ein die Sie anwenden möchten
 > einheitsvektor
-Enter a second vector in Haskell List notation: x:xs , max 6  dimensionen
+Geben sie einen zweiten Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen
 > 4:3
 [0.8, 0.6000000000000001]
 ```
@@ -29,11 +29,11 @@ Quelle: http://www.mathe-lexikon.at/algebra/vektoralgebra/vektor-grundlagen/einh
 
 2)
 ```zsh
-Enter what function you want to apply
+Geben sie die Methode ein die Sie anwenden möchten
 > skalarprodukt
 Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen
 > 2:-4:0
-Enter a second vector in Haskell List notation: x:xs , max 6  dimensionen
+Geben sie einen zweiten Vektor in der Haskell list notation ein: x:xs , max 6  dimensionen
 > 3:2:5
 -2.0
 ```
@@ -42,13 +42,13 @@ Quelle: http://www.mathebibel.de/skalarprodukt
 
 3)
 ```zsh
-Enter what function you want to apply
+Geben sie die Methode ein die Sie anwenden möchten
 >spatprodukt
 Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen
 >2:0:5
-Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen
+Geben sie einen zweiten Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen
 >-1:5:-2
-Geben sie einen Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen
+Geben sie einen dritten Vektor in der Haskell list notation ein: x:xs , max 3  dimensionen
 >2:1:2
 31.0
 ```
